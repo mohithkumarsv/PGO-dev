@@ -14,14 +14,14 @@
 
 @font-face {
   font-family: "trueno-l";
-  src: url("fonts/TruenoLt.otf") format("otf");
+  src: url("../fonts/TruenoLt.otf");
 }
 
 @font-face {
-  font-family: "trueno-r";
-  src: url("fonts/TruenoRgIt.otf") format("otf");
+  font-family: "trueno-sb";
+  src: url("../fonts/TruenoSBd.otf");
 }
 
 body {
-  font-family: "trueno-r";
+  font-family: "trueno-l";
 }
