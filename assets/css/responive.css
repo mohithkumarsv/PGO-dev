@@ -4,9 +4,6 @@
     text-align: center;
     margin: 0 auto;
   }
-  #sec-hero {
-    min-height: initial;
-  }
   .main-banner-slider-left h1 span {
     font-size: var(--main-font-size-heading);
   }
@@ -28,9 +25,6 @@
     text-align: center;
     margin: 0 auto;
   }
-  #sec-hero {
-    min-height: initial;
-  }
   .main-banner-slider-left h1 span {
     font-size: var(--main-font-size-heading);
   }
@@ -47,9 +41,6 @@
 }
 
 @media (max-width: 991.98px) and (min-width: 768px) {
-  #sec-hero {
-    min-height: initial;
-  }
   .main-banner-slider-right img {
     margin: 28px auto;
   }
@@ -69,15 +60,9 @@
 }
 
 @media (max-width: 1199.98px) and (min-width: 992px) {
-  #sec-hero {
-    min-height: initial;
-  }
 }
 
 @media (min-width: 1440px) {
-  #sec-hero {
-    min-height: 70vh;
-  }
 }
 
 @media (min-width: 2000px) {
