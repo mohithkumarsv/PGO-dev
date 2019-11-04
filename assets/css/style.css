@@ -1,1 +1,47 @@
-@import url(global.css);
+@import url(../css/global.css);
+/* home page main banner  */
+#sec-hero {
+  background-image: url(../img/HomeBgmainbanner.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0px;
+}
+
+.main-banner-slider-left {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 150px;
+  flex-flow: column nowrap;
+}
+
+.main-banner-slider-left h1 {
+  font-family: "trueno-sb";
+  color: var(--main-title-color);
+  font-size: var(--main-font-size-main-heading);
+}
+.main-banner-slider-left h1 span {
+  font-family: "trueno-l";
+  color: var(--main-title-color);
+  font-size: var(--main-font-size-main-heading);
+}
+.main-banner-slider-left p {
+  font-family: "trueno-l";
+  color: var(--main-black-color);
+  font-size: var(--main-font-size-papagraph);
+  width: 400px;
+}
+.main-banner-slider-right img {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+
+/* home page main banner end */
