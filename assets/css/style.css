@@ -1,1 +1,49 @@
 @import url(global.css);
+
+/* Global style */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: var(--main-font-size-papagraph);
+}
+
+h1 {
+  font-family: "trueno-sb";
+  font-size: var(--main-font-size-main-heading);
+}
+
+h2 {
+  font-family: "trueno-sb";
+  font-size: var(--main-font-size-heading);
+}
+
+h3 {
+  font-family: "trueno-sb";
+  font-size: var(--main-font-size-sub-heading);
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--main-title-color);
+}
+
+/* Section Why PGO */
+section#sec-why-pgo .why-pgo-icon img {
+  width: 128px;
+  height: 128px;
+  padding: 15px;
+}
+
+section#sec-why-pgo li {
+  border-bottom: 1px solid #dddddd;
+  padding-top: 20px;
+}
