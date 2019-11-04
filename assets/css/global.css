@@ -1,0 +1,27 @@
+:root {
+  --main-title-color: #364c62;
+  --main-bg-color: #f7faff;
+  --main-text-active-color: #3460ac;
+  --main-text-inactive-color: #7398b2;
+  --main-button-color: #3460ac;
+  --main-white-color: #ffff;
+  --main-black-color: #000000;
+  --main-font-size-main-heading: 48px;
+  --main-font-size-heading: 28px;
+  --main-font-size-sub-heading: 18px;
+  --main-font-size-papagraph: 16px;
+}
+
+@font-face {
+  font-family: "trueno-l";
+  src: url("fonts/TruenoLt.otf") format("otf");
+}
+
+@font-face {
+  font-family: "trueno-r";
+  src: url("fonts/TruenoRgIt.otf") format("otf");
+}
+
+body {
+  font-family: "trueno-r";
+}
