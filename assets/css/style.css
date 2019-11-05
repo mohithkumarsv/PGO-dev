@@ -41,8 +41,6 @@ p {
 }
 
 /* Section Why PGO */
-
-/* home page main banner start */
 section#sec-why-pgo .why-pgo-icon img {
   width: 128px;
   height: 128px;
@@ -53,7 +51,9 @@ section#sec-why-pgo li {
   border-bottom: 1px solid #dddddd;
   padding-top: 20px;
 }
+/* Section Why PGO end*/
 
+/* Section Hero start */
 #sec-hero {
   background-image: url(../img/HomeBgmainbanner.png);
   background-position: top center;
@@ -98,4 +98,30 @@ section#sec-why-pgo li {
   display: block;
 }
 
-/* home page main banner end */
+/* Section Hero end */
+
+/* Section PGO Amenities */
+section#sec-pgo-amenities p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+section#sec-pgo-amenities ul.amenities-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+section#sec-pgo-amenities ul.amenities-icons li.amenities-icon {
+  margin: 20px;
+}
+
+section#sec-pgo-amenities ul.amenities-icons li.amenities-icon div.icon-img {
+  padding: 25px;
+}
+section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
+  text-align: center;
+}
+/* Section PGO Amenities End*/
