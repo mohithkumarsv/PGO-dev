@@ -4,6 +4,9 @@
     overflow-y: hidden;
     flex-wrap: nowrap;
   }
+  .sec-download-app-detail ul li a img {
+    width: 100px;
+  }
 }
 
 @media (max-width: 575.98px) and (min-width: 300px) {
@@ -38,6 +41,9 @@
     font-size: var(--main-font-size-papagraph);
   }
   .life-to-pgo-tabs-detils {
+    align-items: center;
+  }
+  .sec-download-app-detail {
     align-items: center;
   }
 }
@@ -76,6 +82,9 @@
   .life-to-pgo-tabs-detils {
     align-items: center;
   }
+  .sec-download-app-detail {
+    align-items: center;
+  }
 }
 
 @media (max-width: 991.98px) and (min-width: 768px) {
@@ -101,9 +110,15 @@
     float: unset;
     margin: 0 auto;
   }
+  .sec-download-app-detail ul li a img {
+    width: 97px;
+  }
 }
 
 @media (max-width: 1199.98px) and (min-width: 992px) {
+  .sec-download-app-detail ul li a img {
+    width: 115px;
+  }
 }
 
 @media (min-width: 1440px) {
