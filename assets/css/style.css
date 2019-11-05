@@ -196,6 +196,7 @@ section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
 #sec-download-app {
   overflow: hidden;
   position: relative;
+  background-color: var(--main-bg-color);
 }
 .sec-download-app-detail {
   display: flex;
@@ -209,6 +210,14 @@ section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
   color: var(--main-title-color);
   font-size: var(--main-font-size-heading);
 }
+.sec-download-app-detail h3 {
+  font-family: "trueno-sb";
+  color: var(--main-title-color);
+  font-size: var(--main-font-size-main-heading);
+}
+.sec-download-app-detail p {
+  font-size: var(--main-font-size-heading);
+}
 .sec-download-app-detail ul li a img {
   width: 150px;
 }
@@ -216,6 +225,7 @@ section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
   width: 50px;
   vertical-align: bottom;
 }
+
 /* section for download app end  */
 
 /* Section PG Hunt */

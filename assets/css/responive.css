@@ -42,9 +42,54 @@
   }
   .life-to-pgo-tabs-detils {
     align-items: center;
+    text-align: center;
   }
   .sec-download-app-detail {
     align-items: center;
+  }
+  h1 {
+    font-size: var(--main-font-size-heading);
+  }
+  ul.amenities-icons {
+    padding: 0px;
+    margin: 0px;
+  }
+  #sec-download-app {
+    background-color: var(--main-bg-color);
+  }
+  .m-50 {
+    padding: 25px 0px;
+  }
+  section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
+    font-size: var(--main-font-size-papagraph);
+  }
+  section#sec-pgo-amenities ul.amenities-icons li.amenities-icon {
+    margin: 0 auto;
+  }
+  section#sec-pgo-amenities
+    ul.amenities-icons
+    li.amenities-icon
+    div.icon-img
+    img {
+    width: 100px;
+  }
+  .get-started-btn {
+    margin: 15px auto;
+  }
+  .sec-download-app-img img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  .sec-download-app-detail h3 {
+    font-size: var(--main-font-size-heading);
+  }
+  .sec-download-app-detail h2 {
+    font-size: var(--main-font-size-papagraph);
+  }
+  .sec-download-app-detail p {
+    font-size: var(--main-font-size-sub-heading);
   }
 }
 
@@ -85,6 +130,52 @@
   .sec-download-app-detail {
     align-items: center;
   }
+  h1 {
+    font-size: var(--main-font-size-heading);
+  }
+  ul.amenities-icons {
+    padding: 0px;
+    margin: 0px;
+  }
+  #sec-download-app {
+    background-color: var(--main-bg-color);
+  }
+  .m-50 {
+    padding: 25px 0px;
+  }
+
+  .get-started-btn {
+    margin: 15px auto;
+  }
+
+  .sec-download-app-img img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  .sec-download-app-detail h3 {
+    font-size: var(--main-font-size-heading);
+  }
+  .sec-download-app-detail h2 {
+    font-size: var(--main-font-size-papagraph);
+  }
+  .sec-download-app-detail p {
+    font-size: var(--main-font-size-sub-heading);
+  }
+  section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
+    font-size: var(--main-font-size-papagraph);
+  }
+  section#sec-pgo-amenities ul.amenities-icons li.amenities-icon {
+    margin: 0 auto;
+  }
+  section#sec-pgo-amenities
+    ul.amenities-icons
+    li.amenities-icon
+    div.icon-img
+    img {
+    width: 100px;
+  }
 }
 
 @media (max-width: 991.98px) and (min-width: 768px) {
@@ -112,6 +203,15 @@
   }
   .sec-download-app-detail ul li a img {
     width: 97px;
+  }
+  .sec-download-app-detail h3 {
+    font-size: var(--main-font-size-heading);
+  }
+  .sec-download-app-detail h2 {
+    font-size: var(--main-font-size-papagraph);
+  }
+  .sec-download-app-detail p {
+    font-size: var(--main-font-size-sub-heading);
   }
 }
 
