@@ -35,6 +35,22 @@ h3,
 p {
   color: var(--main-title-color);
 }
+
+.btn-button {
+  color: var(--main-white-color);
+  font-size: var(--main-font-size-sub-heading);
+  font-family: "trueno-sb";
+  text-decoration: unset;
+  background-color: var(--main-button-color);
+  padding: 5px 25px;
+  letter-spacing: 1px;
+}
+.btn-button:hover {
+  color: var(--main-white-color);
+  text-decoration: none;
+}
+
+/* Section Why PGO */
 section#sec-why-pgo {
   overflow: hidden;
 }
@@ -167,19 +183,7 @@ section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
   text-align: right;
   float: right;
 }
-.btn-button {
-  color: var(--main-white-color);
-  font-size: var(--main-font-size-sub-heading);
-  font-family: "trueno-sb";
-  text-decoration: unset;
-  background-color: var(--main-button-color);
-  padding: 5px 25px;
-  letter-spacing: 1px;
-}
-.btn-button:hover {
-  color: var(--main-white-color);
-  text-decoration: none;
-}
+
 .life-to-pgo-tabs-img {
   display: flex;
   align-items: center;
@@ -213,3 +217,27 @@ section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
   vertical-align: bottom;
 }
 /* section for download app end  */
+
+/* Section PG Hunt */
+section#sec-pg-hunt h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+section#sec-pg-hunt .carousel-indicators {
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+section#sec-pg-hunt .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid #808080;
+}
+section#sec-pg-hunt .carousel-indicators li.active {
+  background-color: var(--main-button-color) !important;
+}
+
+/* Section PG Hunt End */
