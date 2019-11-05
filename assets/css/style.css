@@ -164,6 +164,7 @@ section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
   border-bottom: 2px solid var(--main-text-active-color);
   background: none;
   border-radius: unset;
+  font-weight: 900;
 }
 .life-to-pgo .nav-pills .nav-link {
   color: var(--main-text-inactive-color);
@@ -249,7 +250,12 @@ section#sec-pg-hunt .carousel-indicators li {
 section#sec-pg-hunt .carousel-indicators li.active {
   background-color: var(--main-button-color) !important;
 }
-
+#carouselExampleIndicators .carousel-inner .carousel-item img {
+  width: 90vh;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
 /* Section PG Hunt End */
 
 /* section testionials start */
@@ -315,6 +321,7 @@ section#sec-pg-hunt .carousel-indicators li.active {
 #sec-testionials .slick-slide img {
   display: block;
   text-align: center;
+  width: 60%;
   margin: 0 auto;
 }
 .testionials-slider-list .card .media-body h5 {
