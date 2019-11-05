@@ -1,3 +1,11 @@
+@media (min-width: 300px) and (max-width: 420px) {
+  .life-to-pgo .nav-pills {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+  }
+}
+
 @media (max-width: 575.98px) and (min-width: 300px) {
   .main-banner-slider-left h1 {
     font-size: var(--main-font-size-heading);
@@ -16,6 +24,21 @@
   }
   .main-banner-slider-left p {
     width: 100%;
+  }
+  .life-to-pgo-tabs-img img {
+    width: 100%;
+    text-align: center;
+    float: unset;
+    margin: 0 auto;
+  }
+  .title-head {
+    font-size: var(--main-font-size-heading);
+  }
+  .life-to-pgo .nav-pills .nav-link {
+    font-size: var(--main-font-size-papagraph);
+  }
+  .life-to-pgo-tabs-detils {
+    align-items: center;
   }
 }
 
@@ -38,6 +61,21 @@
   .main-banner-slider-right img {
     margin: 28px auto;
   }
+  .life-to-pgo-tabs-img img {
+    width: 100%;
+    text-align: center;
+    float: unset;
+    margin: 0 auto;
+  }
+  .title-head {
+    font-size: var(--main-font-size-heading);
+  }
+  .life-to-pgo .nav-pills .nav-link {
+    font-size: var(--main-font-size-papagraph);
+  }
+  .life-to-pgo-tabs-detils {
+    align-items: center;
+  }
 }
 
 @media (max-width: 991.98px) and (min-width: 768px) {
@@ -56,6 +94,12 @@
   }
   .main-banner-slider-left p {
     width: 100%;
+  }
+  .life-to-pgo-tabs-img img {
+    width: 100%;
+    text-align: center;
+    float: unset;
+    margin: 0 auto;
   }
 }
 
