@@ -35,11 +35,9 @@ h3,
 p {
   color: var(--main-title-color);
 }
-.m-50 {
+section#sec-why-pgo {
   overflow: hidden;
-  margin: 50px 0px;
 }
-
 /* Section Why PGO */
 
 /* home page main banner start */
@@ -70,7 +68,7 @@ section#sec-why-pgo li {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: 150px;
+  margin-top: 100px;
   flex-flow: column nowrap;
 }
 
@@ -86,7 +84,6 @@ section#sec-why-pgo li {
 }
 .main-banner-slider-left p {
   font-family: "trueno-l";
-  color: var(--main-black-color);
   font-size: var(--main-font-size-papagraph);
   width: 400px;
 }
@@ -99,3 +96,61 @@ section#sec-why-pgo li {
 }
 
 /* home page main banner end */
+
+/* home page Life at PGO start */
+#sec-life-at-pgo {
+  position: relative;
+  background-color: var(--main-bg-color);
+}
+.title-head {
+  font-family: "trueno-sb";
+  font-size: var(--main-font-size-main-heading);
+  color: var(--main-title-color);
+  text-align: center;
+  margin: 0 auto;
+}
+.life-to-pgo .nav-pills .nav-link.active,
+.life-to-pgo .nav-pills .show > .nav-link {
+  color: var(--main-text-active-color);
+  border-bottom: 2px solid var(--main-text-active-color);
+  background: none;
+  border-radius: unset;
+}
+.life-to-pgo .nav-pills .nav-link {
+  color: var(--main-text-inactive-color);
+  font-size: var(--main-font-size-sub-heading);
+  background: none;
+  border-radius: unset;
+}
+.life-to-pgo-tabs-detils {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+.life-to-pgo-tabs-img img {
+  width: 76%;
+  text-align: right;
+  float: right;
+}
+.btn-button {
+  color: var(--main-white-color);
+  font-size: var(--main-font-size-sub-heading);
+  font-family: "trueno-sb";
+  text-decoration: unset;
+  background-color: var(--main-button-color);
+  padding: 5px 25px;
+  letter-spacing: 1px;
+}
+.btn-button:hover {
+  color: var(--main-white-color);
+  text-decoration: none;
+}
+.life-to-pgo-tabs-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+/* home page Life at PGO end */
