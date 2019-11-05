@@ -179,3 +179,27 @@ section#sec-pgo-amenities ul.amenities-icons li.amenities-icon h3 {
   height: 100%;
 }
 /* home page Life at PGO end */
+
+/* Section PG Hunt */
+section#sec-pg-hunt h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+section#sec-pg-hunt .carousel-indicators {
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+section#sec-pg-hunt .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid #808080;
+}
+section#sec-pg-hunt .carousel-indicators li.active {
+  background-color: var(--main-button-color) !important;
+}
+
+/* Section PG Hunt End */
