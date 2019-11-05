@@ -38,6 +38,14 @@ p {
 section#sec-why-pgo {
   overflow: hidden;
 }
+#sec-why-pgo ul {
+  padding: 0px;
+  margin: 0px;
+}
+.why-pgo-icon {
+    display: flex;
+    align-items: center;
+}
 /* Section Why PGO */
 
 /* home page main banner start */
