@@ -43,8 +43,8 @@ section#sec-why-pgo {
   margin: 0px;
 }
 .why-pgo-icon {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 /* Section Why PGO */
 
@@ -162,3 +162,29 @@ section#sec-why-pgo li {
   height: 100%;
 }
 /* home page Life at PGO end */
+
+/* section for download app start */
+#sec-download-app {
+  overflow: hidden;
+  position: relative;
+}
+.sec-download-app-detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: column nowrap;
+  height: 100%;
+}
+.sec-download-app-detail h2 {
+  font-family: "trueno-sb";
+  color: var(--main-title-color);
+  font-size: var(--main-font-size-heading);
+}
+.sec-download-app-detail ul li a img {
+  width: 150px;
+}
+.sec-download-app-detail h2 span > img {
+  width: 50px;
+  vertical-align: bottom;
+}
+/* section for download app end  */
