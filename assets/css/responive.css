@@ -36,6 +36,7 @@
   }
   .title-head {
     font-size: var(--main-font-size-heading);
+    padding: 0px 10px;
   }
   .life-to-pgo .nav-pills .nav-link {
     font-size: var(--main-font-size-papagraph);
@@ -90,6 +91,20 @@
   }
   .sec-download-app-detail p {
     font-size: var(--main-font-size-sub-heading);
+  }
+  .testionials-slider-list .card .media {
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+  }
+  .testionials-slider-list .card .media .media-body {
+    text-align: center;
+  }
+  .testionials-slider .slick-next {
+    right: -10px;
+  }
+  .testionials-slider .slick-prev {
+    left: -10px;
   }
 }
 
@@ -175,6 +190,20 @@
     div.icon-img
     img {
     width: 100px;
+  }
+  .testionials-slider-list .card .media {
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+  }
+  .testionials-slider-list .card .media .media-body {
+    text-align: center;
+  }
+  .testionials-slider .slick-next {
+    right: 0px;
+  }
+  .testionials-slider .slick-prev {
+    left: 0px;
   }
 }
 
